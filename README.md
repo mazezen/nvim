@@ -2,7 +2,7 @@
 
 ## 使用
 ```shell
-git clone git@github.com:jeffcail/nvim.git ~/.config/nvim
+git clone git@github.com:mazezen/nvim.git ~/.config/nvim
 ```
 
 ## 效果
