@@ -7,7 +7,7 @@
 > cd ~/.config && git clone repo
 
 ## 效果
-[!./xg.png](./xg.png)
+![./xg.png](./xg.png)
 
 完成了一个 Neovim 配置，具备以下核心功能：
 
