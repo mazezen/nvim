@@ -44,6 +44,20 @@ require("lazy").setup({
   install = { colorscheme = { "habamax" } },
   -- automatically check for plugin updates
   checker = { enabled = false },
+
+  -- === 加这一段，彻底禁用 netrw ===
+  performance = {
+    rtp = {
+      disabled_plugins = {
+        "netrwPlugin",  -- 关键！禁用 netrw
+        "gzip",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+      },
+    },
+  },
 })
 
 

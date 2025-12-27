@@ -5,6 +5,8 @@
 > brew install neovim
 >
 > cd ~/.config && git clone repo
+>
+> nvim || nvim --headless -c 'Lazy install' -c 'qa'
 
 完成了一个 Neovim 配置，具备以下核心功能：
 
@@ -51,8 +53,8 @@
 
 | 快捷键       | 功能                            | 说明                                   |
 | ------------ | ------------------------------- | -------------------------------------- |
-| `<leader>e`  | 开关左侧目录树（Neo-Tree）      | 启动时默认打开，再按关闭               |
-| `<leader>o`  | 聚焦到左侧目录树                | 光标跳到树上，便于浏览                 |
+| `<leader>fe` | 开关左侧目录树（Neo-Tree）      | 启动时默认打开，再按关闭               |
+| `<leader>fo` | 聚焦到左侧目录树                | 光标跳到树上，便于浏览                 |
 | `<leader>f`  | 格式化当前文件（LSP formatter） | Go 用 gofmt，Lua 用 lua_ls 等          |
 | `<leader>r`  | 运行当前文件（自定义）          | 支持 Go/Python/JS/Lua 等（见下方说明） |
 | `<leader>b`  | 设置/取消断点（调试用）         |                                        |

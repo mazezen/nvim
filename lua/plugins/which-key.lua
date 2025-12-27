@@ -4,7 +4,7 @@ return {
   config = function()
     require("which-key").setup({
       plugins = { marks = true, registers = true },
-      window = { border = "rounded" },
+      win = { border = "rounded" },
     })
   end,
 }
