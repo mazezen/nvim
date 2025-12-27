@@ -1,4 +1,4 @@
-# Neovim 配置使用文档
+# Neovim
 
 ## 安装
 
@@ -7,6 +7,9 @@
 > cd ~/.config && git clone repo
 >
 > nvim || nvim --headless -c 'Lazy install' -c 'qa'
+
+## 效果
+![./xg.png](./xg.png)
 
 完成了一个 Neovim 配置，具备以下核心功能：
 
